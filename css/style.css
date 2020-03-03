@@ -34,6 +34,12 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
+@font-face {
+    font-family: "mountains";
+    src: url(../fonts/beyond_the_mountains.ttf);
+    src: url(../fonts/beyond_the_mountains.otf);
+    font-weight: 400;
+}
 *,
 *::before,
 *::after {
@@ -464,6 +470,10 @@ pre {
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
+
+#entry-header{
+  font-family: mountains;
+}
 
 .container-fluid {
   width: 100%;
