@@ -8,6 +8,13 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <!-- custom scrollbar CSS -->
+<link rel="stylesheet" href="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css">
+<!-- jQuery lib -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- custom scrollbar plugin script -->
+<script src="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
       rel="stylesheet"
@@ -46,6 +53,14 @@
         src: url(fonts/beyond_the_mountains.otf);
         font-weight: 400;
       }
+      #twitter-widget-holder
+      { max-height:400px; 
+      max-width:320px; 
+      padding:20px; 
+      background:#fff; 
+      border-radius:3px; 
+      box-shadow:2px 2px 3px rgba(0,0,0,.1); }
+
     </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -593,7 +608,6 @@
     	<div class="container">
     		<div class="row justify-content-center pb-5">
           <div class="col-md-12 text-center heading-section ftco-animate">
-          	<span class="clone">Testimony</span>
             <h2 class="mb-3">Twitter Feed</h2>
           </div>
         </div>
@@ -603,9 +617,8 @@
               <div class="item">
                 <div class="testimony-wrap py-4">
                   <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    
-                  </div>
+                     
+</div>
                 </div>
               </div>
               <div class="item">
@@ -900,17 +913,23 @@
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">External Links</h2>
+              <h2 class="ftco-heading-2">Twitter Feed</h2>
               <ul class="list-unstyled">
                 <li>
-                  <a href="https://www.alueducation.com" target=_blank
-                    ><span class="icon-long-arrow-right mr-2"></span
-                    >African Leadership University</a
-                  >
+                    <a class="twitter-timeline" 
+                    href="https://twitter.com/onshimiye?ref_src=twsrc%5Etfw"
+                    data-tweet-limit="1"
+                    data-chrome="nofooter noborders"
+                     >Tweets by onshimiye</a> 
+                   <script async src="https://platform.twitter.com/widgets.js" 
+                   charset="utf-8"></script>
+                   
+                   
                 </li>
                 
               </ul>
             </div>
+            
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
