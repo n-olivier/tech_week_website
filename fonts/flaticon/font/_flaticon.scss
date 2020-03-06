@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 30/08/2019 12:57
+    Creation date: 03/03/2020 16:34
     */
 
     @font-face {
@@ -37,14 +37,18 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-rose-variant-outline-with-vines:before { content: "\f100"; }
-.flaticon-rose-outline-variant-with-vines-and-leaves:before { content: "\f101"; }
-.flaticon-reception-bell:before { content: "\f102"; }
-.flaticon-wedding-kiss:before { content: "\f103"; }
-.flaticon-cake:before { content: "\f104"; }
+    .flaticon-id:before { content: "\f100"; }
+.flaticon-responsive:before { content: "\f101"; }
+.flaticon-research:before { content: "\f102"; }
+.flaticon-career:before { content: "\f103"; }
+.flaticon-workshop:before { content: "\f104"; }
+.flaticon-woman:before { content: "\f105"; }
+.flaticon-work:before { content: "\f106"; }
     
-    $font-Flaticon-rose-variant-outline-with-vines: "\f100";
-    $font-Flaticon-rose-outline-variant-with-vines-and-leaves: "\f101";
-    $font-Flaticon-reception-bell: "\f102";
-    $font-Flaticon-wedding-kiss: "\f103";
-    $font-Flaticon-cake: "\f104";
+    $font-Flaticon-id: "\f100";
+    $font-Flaticon-responsive: "\f101";
+    $font-Flaticon-research: "\f102";
+    $font-Flaticon-career: "\f103";
+    $font-Flaticon-workshop: "\f104";
+    $font-Flaticon-woman: "\f105";
+    $font-Flaticon-work: "\f106";
